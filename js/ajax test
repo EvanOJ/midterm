@@ -1,0 +1,5 @@
+var x = "https://raw.githubusercontent.com/EvanOJ/midterm/master/histograms.json" ;
+var z = function(data) {
+$.ajax(data)
+}
+z(x);
