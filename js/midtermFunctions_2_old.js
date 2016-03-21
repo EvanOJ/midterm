@@ -81,7 +81,7 @@ x--;
 if (y==2){
 x++;
 }
-// console.log(x);
+console.log(x);
 if(x===0){
 setSlideOne();
 }else if(x==1){
@@ -403,6 +403,6 @@ onEachFeature: eachFeature,
 filter: myFilter,
 style: myStyle
 }).addTo(map);
-// console.log(myFeatureGroup);
+console.log(myFeatureGroup);
 });
 });
